@@ -1,0 +1,360 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    color: #21243D;
+    width: 100%;
+}
+
+.header {
+    width: 1151px;
+    position: relative;
+    padding: 18px 150px;
+    z-index: 9;
+}
+
+.header .list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    top: 27px;
+
+}
+
+.header .list a {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.logo {
+    width: 100px;
+    display: flex;
+}
+
+.burger-icon {
+    display: none;
+}
+
+.hero-section {
+    padding: 150px 150px 129px;
+
+}
+
+.hero-content h1 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 40px;
+    color: #21243D;
+    padding: 25px 0;
+
+}
+
+.hero-content h2 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 0px;
+    color: #21243D;
+    padding: 10px 0;
+}
+
+.hero-content p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.hero-thumbnail {
+    text-align: center;
+}
+
+.hero-thumbnail image {
+    width: 2690px;
+    height: 270px;
+    left: 734px;
+    top: 182px;
+    border-radius: 135px;
+    border: darkgrey;
+    box-shadow: -5px 15px #edf7fa;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-family: 'Heebo';
+    font-style: normal;
+    width: auto;
+    height: auto;
+    padding: 8px 16px;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #FF6464;
+    border-radius: 2px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 28px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.featured {
+    background-color: #21243D;
+    padding: 64px 0px;
+}
+
+.featured h3 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.card {
+    padding: 16px;
+}
+
+.card .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    gap: 8px;
+}
+
+.card-border h4 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 28px;
+    color: #21243D;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+}
+
+.card-border p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+}
+
+.card-border img {
+    width: 100%;
+    height: auto;
+}
+
+.card-border button {
+    width: 100%;
+}
+
+.hero-section .image {
+    display: flex;
+    justify-content: center;
+} 
+
+.hero-section .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    gap: 32px;
+}
+
+.hero-section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.hero-section button {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+} 
+
+.footer {
+    padding: 32px 0px;
+}
+
+.footer .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer ul {
+    margin: 0px 16px 8px 16px;
+    padding: 0px;
+}
+
+.footer .copyright {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width:991px) {
+    body {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+        padding: 18px 30px;
+    }
+    .hero-section {
+        padding: 120px 30px 50px;
+    }
+    
+    .hero-content {
+        padding-right: 15px;
+        
+    }
+    .hero-content h1 {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        color: #21243D;
+        padding: 20px 0;
+    }
+    
+    .hero-content p {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #21243D;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    
+    .featured {
+        padding: 50px 30px 50px;
+        background: #21243D;
+    }
+    
+    .card-border {
+        margin-bottom: 24px;
+    }
+    
+    .social-media img:hover {
+        width: 6%;
+    }
+}
+
+@media (max-width:767px) {
+    body {
+      width: 100%;
+    }
+    .header {
+        padding: 18px 8px;
+    }
+    
+    .logo {
+        display: none;
+    }
+    .hero-section {
+        padding: 70px 0 50px;
+    }
+    
+    .hero-thumbnail img {
+        width: 60%;
+        height: 60%;
+        flex-direction: column-reverse;
+
+    }
+    
+    .hero-content {
+        padding-top: 30px;
+        padding-right: 15px;
+        text-align: center;
+    }
+    
+    .hero-content h1 {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        color: #21243D;
+
+    }
+    .hero-content h2 {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        color: #21243D;
+    
+    }
+    
+    .hero-content p {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #21243D;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+   
+
+    .social-media a {
+        text-decoration: none;
+        padding: 0 15px;
+    }
+    
+    .social-media img:hover {
+        width: 15%;
+    }
+}    
