@@ -6,9 +6,8 @@ body {
 }
 
 .header {
-    width: 1151px;
     position: relative;
-    padding: 18px 150px;
+    padding: 18px 0;
     z-index: 9;
 }
 
@@ -41,7 +40,7 @@ body {
 }
 
 .hero-section {
-    padding: 150px 150px 129px;
+    padding: 150px 0 129px;
 
 }
 
@@ -248,6 +247,7 @@ p {
     .header {
         width: 100%;
         padding: 18px 30px;
+        position: fixed;
     }
     .hero-section {
         padding: 120px 30px 50px;
@@ -264,7 +264,17 @@ p {
         font-size: 32px;
         line-height: 40px;
         color: #21243D;
-        padding: 20px 0;
+        padding: 20px 0 0;
+    }
+
+     .hero-content h2 {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        color: #21243D;
+        padding: 0 0;
     }
     
     .hero-content p {
@@ -283,8 +293,9 @@ p {
         background: #21243D;
     }
     
-    .card-border {
-        margin-bottom: 24px;
+    .card {
+        padding: 16px;
+        margin-bottom: 30px;
     }
     
     .social-media img:hover {
@@ -298,6 +309,7 @@ p {
     }
     .header {
         padding: 18px 8px;
+        position: fixed;
     }
     
     .logo {
@@ -307,16 +319,36 @@ p {
         padding: 70px 0 50px;
     }
     
+    .hero-section .row {
+        flex-direction: column-reverse;
+    }
+
     .hero-thumbnail img {
         width: 60%;
         height: 60%;
         flex-direction: column-reverse;
 
     }
+
+    /* .burger-icon {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+        align-items: center;
+    }
     
+    .burger-icon img {
+        width: 30px;
+    } */
+    
+    .button-wrapper {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
     .hero-content {
         padding-top: 30px;
-        padding-right: 15px;
+        padding-right: 0;
         text-align: center;
     }
     
